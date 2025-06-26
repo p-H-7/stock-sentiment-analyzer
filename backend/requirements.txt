@@ -1,0 +1,44 @@
+# Web Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# HTTP Requests
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.4
+
+# Machine Learning & Sentiment Analysis
+transformers==4.36.2
+torch==2.1.2
+textblob==0.17.1
+vaderSentiment==3.3.2
+
+# Financial Data
+yfinance==0.2.28
+
+# Background Tasks (for future use)
+celery==5.3.4
+redis==5.0.1
+
+# API Documentation
+python-multipart==0.0.6
+
+# CORS Support
+# (included in fastapi)
+
+# Data Validation
+pydantic==2.5.2
+
+# Testing (optional)
+pytest==7.4.3
+httpx==0.25.2

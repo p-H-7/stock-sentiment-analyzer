@@ -1,8 +1,7 @@
-# Python virtual environments
-stock/
+# Virtual environments
 venv/
 env/
-ENV/
+stock/
 .venv/
 
 # Python cache
@@ -65,20 +64,3 @@ logs/
 htmlcov/
 .coverage
 .pytest_cache/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Docker
-.dockerignore
-
-# Additional Python cache
-**/__pycache__/
-*.pyc
-
-# Node modules (frontend)
-frontend/node_modules/
-package-lock.json
-
-# Build directories
-frontend/build/
